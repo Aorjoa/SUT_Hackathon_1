@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FirebaseOSX" "${PODS_ROOT}/Headers/Public/ORSSerialPort"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/FirebaseOSX" "$PODS_CONFIGURATION_BUILD_DIR/ORSSerialPort" $(inherited) "${PODS_ROOT}/FirebaseOSX"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FirebaseOSX" -isystem "${PODS_ROOT}/Headers/Public/ORSSerialPort"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FirebaseOSX" -l"FirebaseStatic" -l"ORSSerialPort" -l"c++" -l"icucore" -framework "CFNetwork" -framework "IOKit" -framework "Security" -framework "SystemConfiguration"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

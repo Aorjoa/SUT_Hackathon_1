@@ -1,0 +1,1 @@
+../../../FirebaseOSX/Firebase.h

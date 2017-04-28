@@ -1,0 +1,15 @@
+PODS:
+  - FirebaseOSX (2.5.1)
+  - ORSSerialPort (2.0.2)
+
+DEPENDENCIES:
+  - FirebaseOSX
+  - ORSSerialPort
+
+SPEC CHECKSUMS:
+  FirebaseOSX: 16300443a18fce7875be772e7f0f259726065258
+  ORSSerialPort: 3fb0d2404b7e8b99c4f1aa7e7314d63030cd54c3
+
+PODFILE CHECKSUM: ec7aba2cbb7598678ad84807ac39aaafc0e2769c
+
+COCOAPODS: 1.2.1

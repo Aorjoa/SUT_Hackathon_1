@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A40A88EA6E40366BC361085 /* libPods-Locker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9250C842A4D4D1B956ADFB /* libPods-Locker.a */; };
 		E15E27A81EAB54DC00513497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15E27A71EAB54DC00513497 /* AppDelegate.swift */; };
 		E15E27AA1EAB54DC00513497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15E27A91EAB54DC00513497 /* ViewController.swift */; };
 		E15E27AC1EAB54DC00513497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15E27AB1EAB54DC00513497 /* Assets.xcassets */; };
 		E15E27AF1EAB54DD00513497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15E27AD1EAB54DD00513497 /* Main.storyboard */; };
+		E1DF81801EAB996300BF55FC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E1DF817F1EAB996300BF55FC /* Podfile */; };
+		E1E7EDD91EABA892009DD480 /* libORSSerialPort.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E7EDD81EABA892009DD480 /* libORSSerialPort.a */; };
+		E1E7EDDD1EABE090009DD480 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1E7EDDC1EABE090009DD480 /* GoogleService-Info.plist */; };
+		E1E7EDDF1EABE2BE009DD480 /* libFirebaseOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E7EDDE1EABE2BE009DD480 /* libFirebaseOSX.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E9250C842A4D4D1B956ADFB /* libPods-Locker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Locker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CA9E707EA04AE8B530D5C5 /* Pods-Locker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Locker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Locker/Pods-Locker.release.xcconfig"; sourceTree = "<group>"; };
 		E15E27A41EAB54DC00513497 /* Locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15E27A71EAB54DC00513497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15E27A91EAB54DC00513497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E15E27AB1EAB54DC00513497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15E27AE1EAB54DD00513497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E15E27B01EAB54DD00513497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1DF817F1EAB996300BF55FC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1E7EDD81EABA892009DD480 /* libORSSerialPort.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libORSSerialPort.a; path = "../../../Library/Developer/Xcode/DerivedData/Locker-cgofhepbgsfrtuecwpqywbfutreb/Build/Products/Debug/ORSSerialPort/libORSSerialPort.a"; sourceTree = "<group>"; };
+		E1E7EDDB1EABABD5009DD480 /* SwiftSerial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSerial-Bridging-Header.h"; sourceTree = "<group>"; };
+		E1E7EDDC1EABE090009DD480 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E1E7EDDE1EABE2BE009DD480 /* libFirebaseOSX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFirebaseOSX.a; path = "../../../Library/Developer/Xcode/DerivedData/Locker-cgofhepbgsfrtuecwpqywbfutreb/Build/Products/Debug/FirebaseOSX/libFirebaseOSX.a"; sourceTree = "<group>"; };
+		E7A78B1B4A4E2DEC410E1AC8 /* Pods-Locker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Locker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Locker/Pods-Locker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +40,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E7EDDF1EABE2BE009DD480 /* libFirebaseOSX.a in Frameworks */,
+				E1E7EDD91EABA892009DD480 /* libORSSerialPort.a in Frameworks */,
+				9A40A88EA6E40366BC361085 /* libPods-Locker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +52,11 @@
 		E15E279B1EAB54DC00513497 = {
 			isa = PBXGroup;
 			children = (
+				E1DF817F1EAB996300BF55FC /* Podfile */,
 				E15E27A61EAB54DC00513497 /* Locker */,
 				E15E27A51EAB54DC00513497 /* Products */,
+				FC7BB6FB85AF4B064ACB7A18 /* Pods */,
+				EDE0BEEA4C3781F97520E4CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,8 +76,29 @@
 				E15E27AB1EAB54DC00513497 /* Assets.xcassets */,
 				E15E27AD1EAB54DD00513497 /* Main.storyboard */,
 				E15E27B01EAB54DD00513497 /* Info.plist */,
+				E1E7EDDC1EABE090009DD480 /* GoogleService-Info.plist */,
+				E1E7EDDB1EABABD5009DD480 /* SwiftSerial-Bridging-Header.h */,
 			);
 			path = Locker;
+			sourceTree = "<group>";
+		};
+		EDE0BEEA4C3781F97520E4CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1E7EDDE1EABE2BE009DD480 /* libFirebaseOSX.a */,
+				E1E7EDD81EABA892009DD480 /* libORSSerialPort.a */,
+				2E9250C842A4D4D1B956ADFB /* libPods-Locker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC7BB6FB85AF4B064ACB7A18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7A78B1B4A4E2DEC410E1AC8 /* Pods-Locker.debug.xcconfig */,
+				61CA9E707EA04AE8B530D5C5 /* Pods-Locker.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +108,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E15E27B31EAB54DD00513497 /* Build configuration list for PBXNativeTarget "Locker" */;
 			buildPhases = (
+				0DF8A0CA46A23D1A1CC66579 /* [CP] Check Pods Manifest.lock */,
 				E15E27A01EAB54DC00513497 /* Sources */,
 				E15E27A11EAB54DC00513497 /* Frameworks */,
 				E15E27A21EAB54DC00513497 /* Resources */,
+				0F070C9A3C91E0E1BAEA709D /* [CP] Embed Pods Frameworks */,
+				ACA6BB53927381DB3A4C8CEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -121,12 +164,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1DF81801EAB996300BF55FC /* Podfile in Resources */,
+				E1E7EDDD1EABE090009DD480 /* GoogleService-Info.plist in Resources */,
 				E15E27AC1EAB54DC00513497 /* Assets.xcassets in Resources */,
 				E15E27AF1EAB54DD00513497 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DF8A0CA46A23D1A1CC66579 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0F070C9A3C91E0E1BAEA709D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Locker/Pods-Locker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACA6BB53927381DB3A4C8CEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Locker/Pods-Locker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E15E27A01EAB54DC00513497 /* Sources */ = {
@@ -246,6 +339,7 @@
 		};
 		E15E27B41EAB54DD00513497 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A78B1B4A4E2DEC410E1AC8 /* Pods-Locker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -254,12 +348,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aorjoa.Locker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Locker/SwiftSerial-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E15E27B51EAB54DD00513497 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61CA9E707EA04AE8B530D5C5 /* Pods-Locker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -268,6 +364,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aorjoa.Locker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Locker/SwiftSerial-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -291,6 +388,7 @@
 				E15E27B51EAB54DD00513497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
